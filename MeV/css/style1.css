@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+    z-index: 0;
+}
+@font-face{
+    font-family: titulo;
+    src: url(../fonts/Galada-Regular.ttf);
+}
+
+@font-face{
+    font-family: navbar;
+    src: url(../fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face{
+    font-family: cont;
+    src: url(../fonts/Cinzel-Regular.ttf);
+}
+.form #imagebuscar img{
+    height: 40px;
+}
+
+body{
+    background-color: #F7F5E6;
+    visibility: visible !important; 
+}
+header{
+    padding: 3%;
+    background-image: url(../image/fondoheader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cabecera{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 4vw;
+}
+h1{
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: titulo;
+    width: max-content;
+}
+@media screen and (max-width:800px) {
+    .cabecera img{
+        width: 50%;
+    }
+    .cabecera > h1{
+        font-size: 11vw;
+        padding-left: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.cabecera > img{
+    margin-bottom: 0;
+    padding-bottom: 0%;
+}
+
+
+.wrapper{
+    background-color: #74afb6;
+    padding-bottom: 2%;
+    z-index: 1;
+}
+@media screen and (max-width:800px){
+    .wrapper{
+        background-color: #c5dfe2;
+        padding: 0;
+        z-index: 1;
+    }    
+}
+
+footer{
+    background-image: url(../image/fondoheader.jpg);
+background-size: cover;
+display: block;
+}

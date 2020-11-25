@@ -1,0 +1,59 @@
+*{  padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+/*cabecera*/
+.cabecera, nav{
+    text-align: center;
+    padding: 2%;
+    background-color: rgba(30, 105, 155, 0.856);
+    z-index: 1;
+}
+@font-face{
+    font-family: titulo;
+    src: url(../fonts/Galada-Regular.ttf);
+}
+
+.cabecera h1{
+    padding: 0;
+    font-family: titulo;
+    font-size: 8vw;
+    color: rgba(46, 45, 45, 0.993);
+}
+nav{
+    z-index: 3;
+}
+@media screen and (max-width:899px){
+    .cabecera{
+        background-color:  rgba(30, 105, 155, 0.918);
+        text-align: justify;
+    }
+    .cabecera h1{
+        color: rgba(61, 59, 59, 0.993);
+        font-size: 10vw;
+        padding-top: 2%;
+    }
+}
+/*fin cabecera*/
+body{
+    background-image: url(../image/fondoheader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper{
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 90%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+#card{
+    width: 90%;
+}
+/*footer*/
+footer{
+    background-color:  rgba(30, 105, 155, 0.781);
+}
